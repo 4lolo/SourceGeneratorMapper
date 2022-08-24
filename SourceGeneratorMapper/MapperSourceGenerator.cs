@@ -37,6 +37,7 @@ namespace {mainMethod.ContainingNamespace.ToDisplayString()}
             context.AddSource($"{typeName}.g.cs", source);
         }
 
+        // https://medium.com/@saravananganesan/exploring-c-source-generators-part-1-understanding-registerpostinitializationoutput-49dfd08ca052
         public void Initialize(IncrementalGeneratorInitializationContext initContext)
         {
             initContext.RegisterPostInitializationOutput(ctx =>

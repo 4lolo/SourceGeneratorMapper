@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceGeneratorMapper", "SourceGeneratorMapper\SourceGeneratorMapper.csproj", "{7552FADF-AD3E-462D-B0CA-8D6C33E9681E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceGeneratorMapper.Tests", "SourceGeneratorMapper.Tests\SourceGeneratorMapper.Tests.csproj", "{064A047E-3449-4577-B296-6FCC64645929}"
@@ -18,5 +21,11 @@ Global
 		{064A047E-3449-4577-B296-6FCC64645929}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{064A047E-3449-4577-B296-6FCC64645929}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{064A047E-3449-4577-B296-6FCC64645929}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD954E5E-F458-4C01-8B17-1034482930BD}
 	EndGlobalSection
 EndGlobal

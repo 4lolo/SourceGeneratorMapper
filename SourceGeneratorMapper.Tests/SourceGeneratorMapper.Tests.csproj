@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
 
         <IsPackable>false</IsPackable>
+        <LangVersion>preview</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
@@ -20,10 +21,6 @@
 
     <ItemGroup>
         <ProjectReference Include="..\SourceGeneratorMapper\SourceGeneratorMapper.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Models" />
     </ItemGroup>
     
 </Project>
